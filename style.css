@@ -1,0 +1,78 @@
+@import url(https://fonts.googleapis.com/css2?family=Roboto&display=swap);
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+body{
+  background-color:#2CB3F3;
+}
+.first-paragraph{
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  margin-bottom:5vh;
+}
+main{
+  display:flex;
+  justify-content:center;
+}
+.finn{
+  background-color:#FFFFFF;
+  height:70vh;
+  width:70vw;
+  border-radius:10% 10% 0 0;
+  display:flex;
+  position:relative;
+  justify-content:center;
+}
+.skin{
+  height:55vh;
+  width:57vw;
+  background-color:#FFE1C9;
+  position:absolute;
+  top:10%;
+  border-radius:50%
+}
+.left-eye{
+  position:absolute;
+  width:4vw;
+  height:4vw;
+  border-radius:50%;
+  background-color:#000000;
+  top:25%;
+  left:30%;
+}
+.right-eye{
+  position:absolute;
+  width:4vw;
+  height:4vw;
+  border-radius:50%;
+  background-color:#000000;
+  top:25%;
+  right:30%;
+}
+form{
+  display:flex;
+  flex-direction:column;
+  top:50%
+}
+.user{
+  width:20vw;
+  position:absolute;
+  top:50%;
+}
+.items{
+  height:7vh;
+  border-color: #000000;
+  border-radius:3%;
+}
+.buttom{
+  margin-top:30vh;
+  height:7vh;
+  background-color:#55A603; 
+  color: #FFFFFF;
+  cursor:pointer;
+}
+
